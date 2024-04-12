@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
-//Name: StarshipUVMapped.ma
-//Last modified: Thu, Apr 11, 2024 10:40:06 PM
+//Name: starShipLit.ma
+//Last modified: Thu, Apr 11, 2024 10:40:42 PM
 //Codeset: 1252
 requires maya "2023";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22631)";
-fileInfo "UUID" "2A674573-4F43-181E-7CDA-209C5D006766";
+fileInfo "UUID" "0273B36C-424D-A294-85C2-0DA32104FBFC";
 createNode transform -s -n "persp";
 	rename -uid "276D68D6-498D-3DD5-D855-18B215D8C836";
 	setAttr ".v" no;
@@ -15306,4 +15306,4 @@ connectAttr "pointLight9.iog" ":defaultLightSet.dsm" -na;
 connectAttr "pointLight10.iog" ":defaultLightSet.dsm" -na;
 connectAttr "pointLight11.iog" ":defaultLightSet.dsm" -na;
 connectAttr "directionalLight2.iog" ":defaultLightSet.dsm" -na;
-// End of StarshipUVMapped.ma
+// End of starShipLit.ma
